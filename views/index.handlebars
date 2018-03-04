@@ -4,26 +4,31 @@
   <div class ="row">
     <div class="col-md-4">
       <h3>Burgers ready to eat.</h3>
-
       <ul>
         {{#each burgers}}
+        {{#unless devoured}}
           <li>
           {{burger_name}}
-
             <button class="change-eaten" data-id="{{id}}" data-neweaten="{{devoured}}">Devour It
             </button>
-
           </li>
-
+        {{/unless}}
         {{/each}}
       </ul>
-      <!-- handlebar stuff -->
     </div>
     <div class ="col-md-4">
     </div>
     <div class="col-md-4">
       <h3>Burgers consumed.</h3>
-      <!-- handlebar stuff -->
+      <ul>
+        {{#each burgers}}
+        {{#if devoured}}
+          <li>
+          {{burger_name}}
+          </li>
+        {{/if}}
+        {{/each}}
+      </ul>
     </div>
   </div>
   <div class="row">
