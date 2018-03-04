@@ -4,6 +4,19 @@
   <div class ="row">
     <div class="col-md-4">
       <h3>Burgers ready to eat.</h3>
+
+      <ul>
+        {{#each burgers}}
+          <li>
+          {{burger_name}}
+
+            <button class="change-eaten" data-id="{{id}}" data-neweaten="{{devoured}}">Devour It
+            </button>
+
+          </li>
+
+        {{/each}}
+      </ul>
       <!-- handlebar stuff -->
     </div>
     <div class ="col-md-4">
