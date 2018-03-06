@@ -2,7 +2,6 @@
 $(function() {
   $(".change-eaten").on("click", function(event) {
     var id = $(this).data("id");
-
     var newEatenState = {
       devoured: true
     };
@@ -20,6 +19,13 @@ $(function() {
     );
   });
 
+
+
+  // $(".close").on("click", function(event) {
+  //   location.reload(true);
+  // });
+
+  
   $(".create-form").on("submit", function(event) {
     // Make sure to preventDefault on a submit event.
     event.preventDefault();
