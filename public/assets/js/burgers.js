@@ -20,7 +20,7 @@ $(function() {
   });
 
 
-
+  // This is modal js not implemented yet
   // $(".close").on("click", function(event) {
   //   location.reload(true);
   // });

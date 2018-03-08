@@ -25,10 +25,5 @@ var burgerAction = {
   // }
 };
 
-// Export the database functions for the controller (catsController.js).
+// Export the database functions for the controller.
 module.exports = burgerAction;
-
-
-    // * Also inside `burger.js`, create the code that will call the ORM functions using burger specific input for the ORM.
-
-    // * Export at the end of the `burger.js` file.

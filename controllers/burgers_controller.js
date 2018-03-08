@@ -2,7 +2,7 @@ var express = require("express");
 
 var router = express.Router();
 
-// Import the model (cat.js) to use its database functions.
+// Import the model (burger.js) to use its database functions.
 var burgerAction = require("../models/burger.js");
 
 // Update for var burgerAction
@@ -23,7 +23,7 @@ router.post("/api/burgers", function(req, res) {
   ], [
     req.body.burger_name, false
   ], function(result) {
-    // Send back the ID of the new quote
+    // Send back the ID of the burger
     res.json({ id: result.insertId });
   });
 });
