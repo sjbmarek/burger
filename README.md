@@ -6,6 +6,8 @@
 
 Created a burger bar with MySQL, Node, Express, Handlebars and a homemade ORM (yum!). Followed the MVC design pattern; used Node and MySQL to query and route data in the app, and Handlebars to generate HTML.  Deployed in Heroku.
 
+Video of wroking app:  https://drive.google.com/file/d/1nwD5VIqDtghDB4HVZhLcEdmniFAfTsTh/view
+
 * Burger Bar is a restaurant app that lets users input the names of burgers they'd like to eat.
 
 * Whenever a user submits a burger's name, this app will display the burger on the left side of the page -- waiting to be eaten.
