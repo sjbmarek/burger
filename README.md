@@ -4,7 +4,9 @@
 
 ### Overview
 
-Created a burger bar with MySQL, Node, Express, Handlebars and a homemade ORM (yum!). Followed the MVC design pattern; used Node and MySQL to query and route data in the app, and Handlebars to generate HTML.  Deployed in Heroku.
+Created a burger bar with MySQL, Node, Express, Handlebars and a homemade ORM (yum!). Followed the MVC design pattern; used Node and MySQL to query and route data in the app, and Handlebars to generate HTML.  
+
+Deployed in Heroku:  https://safe-headland-84617.herokuapp.com/
 
 Video of wroking app:  https://drive.google.com/file/d/1nwD5VIqDtghDB4HVZhLcEdmniFAfTsTh/view
 
